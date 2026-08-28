@@ -30,7 +30,7 @@ export default function FormularioContacto({ servicioSeleccionado }: Props) {
   const [enviado, setEnviado] = useState(false)
   const [error, setError] = useState('')
 
-  const CALENDLY = 'https://calendly.com/hiliana74/30min'
+  const CALENDLY = 'https://calendly.com/aoconsultores/30min'
 
   const handleSubmit = async () => {
     if (!nombre || !email || !telefono || servicio === servicios[0]) {
